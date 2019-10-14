@@ -1,5 +1,5 @@
 project "GLFW"
-	type "StaticLib"
+	kind "StaticLib"
 	language "C"
 
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
